@@ -11,6 +11,7 @@ module Apnotic
                   :priority,
                   :topic,
                   :apns_collapse_id,
+                  :apns_push_type,
                   :authorization
 
     def initialize(token)
